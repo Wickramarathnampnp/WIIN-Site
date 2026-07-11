@@ -1,0 +1,17 @@
+.about-page { padding: 78px 0 95px; }
+.about-page__who { display: grid; grid-template-columns: .9fr 1.3fr; gap: 80px; align-items: start; }
+.about-page h2 { margin: 18px 0 0; font-size: clamp(2rem, 3.5vw, 3.1rem); line-height: 1.15; letter-spacing: -.04em; }
+.about-page__copy p { margin: 0 0 20px; color: #344158; line-height: 1.8; }
+.about-page__values { display: grid; grid-template-columns: repeat(3,1fr); gap: 22px; margin-top: 70px; }
+.about-page__values article { padding: 30px; background: var(--surface-soft); border-top: 3px solid var(--orange); }
+.about-page__values span { color: var(--orange); font-size: .76rem; font-weight: 800; }
+.about-page__values h3 { margin: 18px 0 12px; font-size: 1.25rem; }
+.about-page__values p { margin: 0; color: #435067; line-height: 1.72; }
+.about-page__work { display: grid; grid-template-columns: .9fr 1.3fr; gap: 80px; margin-top: 90px; padding-top: 70px; border-top: 1px solid var(--border); }
+.about-page__work ul { display: grid; gap: 17px; margin: 0; padding: 0; list-style: none; }
+.about-page__work li { display: flex; gap: 13px; color: #344158; line-height: 1.55; }
+.about-page__work li svg { flex: 0 0 auto; color: var(--orange); }
+.about-page__institution { margin-top: 70px; padding: 34px; color: #fff; background: var(--navy-900); }
+.about-page__institution h2 { margin: 0 0 13px; font-size: 1.4rem; }
+.about-page__institution p { margin: 0; color: rgba(255,255,255,.82); line-height: 1.7; }
+@media(max-width:800px){.about-page__who,.about-page__work{grid-template-columns:1fr;gap:30px}.about-page__values{grid-template-columns:1fr}.about-page{padding-top:55px}}

@@ -1,16 +1,33 @@
-# React + Vite
+# WIIN Institute of Technology Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React + Vite implementation of the supplied WIIN homepage UI and website copy deck.
 
-Currently, two official plugins are available:
+## Run
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+```bash
+npm install
+npm run dev
+```
 
-## React Compiler
+Open the local URL printed by Vite, usually `http://localhost:5173`.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Production build
 
-## Expanding the ESLint configuration
+```bash
+npm run build
+npm run preview
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The production output is created in `dist/`.
+
+## Structure
+
+- `src/App.jsx` - application routes and SEO metadata
+- `src/components/` - reusable sections, each with its own `.jsx` and `.css`
+- `src/pages/` - Home, About, News, Contact and Launch pages
+- `src/data/siteData.js` - focus areas, news and contact information
+- `src/assets/` - logo, hero, news and supporter images prepared from the supplied design reference
+
+## Items to confirm before publishing
+
+Replace the provisional contact details and complete the launch venue, time and registration information after official confirmation. Connect the contact form to your preferred backend/email service before production use.

@@ -1,0 +1,4 @@
+.not-found { min-height: 520px; display: grid; place-items: center; padding: 60px 20px; text-align: center; }
+.not-found strong { color: var(--orange); font-size: 4rem; }
+.not-found h1 { margin: 8px 0; font-size: 2.5rem; }
+.not-found p { margin: 0 0 25px; color: var(--muted); }
