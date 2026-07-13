@@ -1,9 +1,9 @@
 import { Globe2, Mail, MapPin, Phone } from "lucide-react";
 import { Link } from "react-router-dom";
 import logo from "../assets/wiin-logo.png";
-import support6g from "../assets/support-6g.png";
-import supportIit from "../assets/support-iit.png";
-import supportPravartak from "../assets/support-pravartak.png";
+import support6g from "../assets/6g.png";
+import supportIit from "../assets/iit.jpg";
+import supportPravartak from "../assets/prava.png";
 import { contactDetails } from "../data/siteData";
 import "./Footer.css";
 
