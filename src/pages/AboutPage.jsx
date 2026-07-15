@@ -10,11 +10,11 @@ const values = [
 ];
 
 const ways = [
-  "Research and innovation focused on practical challenges.",
-  "Training and education aligned with emerging skills and industry needs.",
-  "Collaboration with companies, universities, public institutions and international organisations.",
-  "Technology development that converts knowledge into real-world value.",
-  "Long-term capacity building for Sri Lanka and the wider region.",
+  "Research and innovation to address national and global challenges.",
+  "Training and education to develop future-ready talent with skills aligned to emerging technologies and industry needs.",
+  "Engagement with industry, leading universities, research institutes, public sector organizations, and international partners",
+  "Technology development and knowledge transfer to transform research outcomes into practical solutions and economic value.",
+  "Capacity building to strengthen Sri Lanka's long-term innovation ecosystem and regional competitiveness.",
 ];
 
 export default function AboutPage() {
