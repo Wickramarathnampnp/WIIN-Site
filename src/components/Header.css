@@ -7,7 +7,7 @@
 .site-header--solid { position: relative; background: var(--navy-950); }
 .site-header__inner { min-height: 122px; display: flex; align-items: center; justify-content: space-between; gap: 40px; }
 .site-header__brand { width: 300px; flex: 0 0 auto; }
-.site-header__brand img { width: 200%; height: auto; }
+.site-header__brand img { width: 70%; height: auto; margin-top: 10px;}
 .site-header__nav { display: flex; align-items: center; gap: clamp(30px, 5vw, 62px); }
 .site-header__link { position: relative; padding: 20px 0; color: rgba(255,255,255,.95); font-size: .78rem; font-weight: 700; text-transform: uppercase; }
 .site-header__link::after { content: ""; position: absolute; left: 0; right: 0; bottom: 7px; height: 2px; background: var(--orange); transform: scaleX(0); transition: transform 180ms ease; }

@@ -1,6 +1,6 @@
 import { Globe2, Mail, MapPin, Phone } from "lucide-react";
 import { Link } from "react-router-dom";
-import logo from "../assets/wiin-logo.png";
+import logo from "../assets/logo_1.png";
 import support6g from "../assets/6g.png";
 import supportIit from "../assets/iit.jpg";
 import supportPravartak from "../assets/prava.png";
@@ -33,12 +33,12 @@ export default function Footer() {
           <a href={contactDetails.linkedinUrl} target="_blank" rel="noreferrer"><Globe2 size={19} />{contactDetails.linkedinLabel}</a>
         </section>
 
-        <section className="site-footer__column site-footer__support">
+        {/* <section className="site-footer__column site-footer__support">
           <h2>Supported By</h2>
           <a href="https://www.6gflagship.com/" target="_blank" rel="noreferrer"><img src={support6g} alt="6G Flagship, University of Oulu" /></a>
           <a href="https://www.iitm.ac.in/" target="_blank" rel="noreferrer"><img src={supportIit} alt="Indian Institute of Technology Madras" /></a>
           <a href="https://iitmpravartak.org.in/" target="_blank" rel="noreferrer"><img src={supportPravartak} alt="IITM Pravartak Technologies Foundation" /></a>
-        </section>
+        </section> */}
       </div>
     </footer>
   );
