@@ -49,7 +49,24 @@ export default function AboutPage() {
 
             <aside className="about-page__institution">
               <h2>Institutional Description</h2>
-              <p>WIIN Institute of Technology is a company limited by guarantee. The final registered legal name, company registration number and registered address should be added after formal confirmation.</p>
+
+              <p>
+                <strong>Registered Legal Name:</strong>
+                <br />
+                WIIN Institute of Technology (Guarantee) Limited
+              </p>
+
+              <p>
+                <strong>Company Registration Number:</strong>
+                <br />
+                GL00367875
+              </p>
+
+              <p>
+                <strong>Registered Address:</strong>
+                <br />
+                No. 194, Havelock Road, Colombo 05, 00500
+              </p>
             </aside>
           </div>
         </section>

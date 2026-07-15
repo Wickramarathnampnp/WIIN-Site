@@ -72,7 +72,7 @@ export const newsItems = [
 export const contactDetails = {
   email: "info@wiin.lk",
   phone: "+94 11 234 5678",
-  address: "No. 123, Innovation Drive, Colombo 07, Sri Lanka",
+  address: "No. 194, Havelock Road, Colombo 05, 00500",
   linkedinLabel: "linkedin.com/company/wiin",
   linkedinUrl: "https://www.linkedin.com/company/wiin",
 };
