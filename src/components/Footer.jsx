@@ -30,7 +30,7 @@ export default function Footer() {
           <a href={`mailto:${contactDetails.email}`}><Mail size={19} />{contactDetails.email}</a>
           <a href={`tel:${contactDetails.phone.replace(/\s/g, "")}`}><Phone size={19} />{contactDetails.phone}</a>
           <span><MapPin size={20} />{contactDetails.address}</span>
-          <a href={contactDetails.linkedinUrl} target="_blank" rel="noreferrer"><Globe2 size={19} />{contactDetails.linkedinLabel}</a>
+          {/* <a href={contactDetails.linkedinUrl} target="_blank" rel="noreferrer"><Globe2 size={19} />{contactDetails.linkedinLabel}</a> */}
         </section>
 
         {/* <section className="site-footer__column site-footer__support">

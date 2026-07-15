@@ -27,7 +27,7 @@ export default function ContactPage() {
                 <a href={`mailto:${contactDetails.email}`}><Mail /><span><small>Email</small>{contactDetails.email}</span></a>
                 <a href={`tel:${contactDetails.phone.replace(/\s/g, "")}`}><Phone /><span><small>Telephone</small>{contactDetails.phone}</span></a>
                 <div><MapPin /><span><small>Office Address</small>{contactDetails.address}</span></div>
-                <a href={contactDetails.linkedinUrl} target="_blank" rel="noreferrer"><Globe2 /><span><small>LinkedIn</small>{contactDetails.linkedinLabel}</span></a>
+                {/* <a href={contactDetails.linkedinUrl} target="_blank" rel="noreferrer"><Globe2 /><span><small>LinkedIn</small>{contactDetails.linkedinLabel}</span></a> */}
               </div>
             </div>
 
