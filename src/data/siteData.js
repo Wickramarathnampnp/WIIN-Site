@@ -71,8 +71,8 @@ export const newsItems = [
 
 export const contactDetails = {
   email: "info@wiin.lk",
-  phone: "+94 11 234 5678",
-  address: "No. 194, Havelock Road, Colombo 05, 00500",
+  phone: "+94 77 272 3407",
+  address: "TRACE Expert City,Maradana, Colombo 10",
   linkedinLabel: "linkedin.com/company/wiin",
   linkedinUrl: "https://www.linkedin.com/company/wiin",
 };
