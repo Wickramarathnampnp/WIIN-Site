@@ -115,7 +115,6 @@ function GoLiveLaunch() {
       className={`go-live-overlay go-live-overlay--${phase}`}
       role="dialog"
       aria-modal="true"
-      aria-label="Official WIIN website launch"
     >
       <div className="go-live-background" aria-hidden="true">
         <div className="go-live-grid" />
@@ -147,9 +146,9 @@ function GoLiveLaunch() {
         </div>
 
         <div className="go-live-heading">
-          <p className="go-live-eyebrow">Official Website Launch</p>
+          {/* <p className="go-live-eyebrow">Official Website Launch</p> */}
 
-          <h1>WIIN Institute of Technology</h1>
+          <h1>Institute of Technology</h1>
 
           <div className="go-live-divider">
             <span />
