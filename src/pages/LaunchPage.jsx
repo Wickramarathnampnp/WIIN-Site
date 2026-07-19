@@ -21,8 +21,8 @@ export default function LaunchPage() {
             <aside className="launch-page__aside">
               <h2>Event Information</h2>
               <div><CalendarDays /><span><small>Date</small>16 July 2026</span></div>
-              <div><MapPin /><span><small>Venue & Time</small>To be confirmed</span></div>
-              <div><UsersRound /><span><small>Registration</small>Details to be announced</span></div>
+              <div><MapPin /><span><small>Venue & Time</small>TRACE Expert City, 4:30 PM - 5:30 PM</span></div>
+              <div><UsersRound /><span><small>Registration</small>Invitation Only</span></div>
             </aside>
           </div>
         </article>

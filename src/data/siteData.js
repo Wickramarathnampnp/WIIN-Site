@@ -1,6 +1,7 @@
 import meetingImage from "../assets/sri-lanka-news-1024x576.jpg";
 import colomboImage from "../assets/colombo.jpg";
 import launchImage from "../assets/launch.png";
+import launchedImage from "../assets/launched.jpeg";
 
 export const focusAreas = [
   {
@@ -65,6 +66,18 @@ export const newsItems = [
     imageAlt: "WIIN Institute of Technology launch event graphic for 16 July 2026.",
     button: "View Launch Details",
     href: "/news/wiin-launch-16-july-2026",
+    external: false,
+  },
+  {
+    slug: "wiin-launched-16-july-2026",
+    category: "News",
+    title: "WIIN Institute of Technology Officially Launched at TRACE Expert City",
+    date: "16 July 2026",
+    summary: "The WIIN Institute of Technology was officially launched at TRACE Expert City in the presence of the Deputy Minister of Digital Economy, the High Commissioner of India to Sri Lanka, distinguished academics, industry leaders, and international partners, marking a major milestone for Sri Lanka's digital innovation ecosystem.",
+    image: launchedImage,
+    imageAlt: "Officials and distinguished guests at the WIIN Institute of Technology launch event held at TRACE Expert City on 16 July 2026.",
+    button: "Read Full Story",
+    href: "/news/wiin-launched-16-july-2026",
     external: false,
   },
 ];
