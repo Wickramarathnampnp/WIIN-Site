@@ -2,7 +2,7 @@ import { CalendarDays, MapPin, UsersRound } from "lucide-react";
 import Footer from "../components/Footer";
 import PageHeader from "../components/PageHeader";
 import launchImage from "../assets/launch.png";
-import "./LaunchPage.css";
+import "./NewsPage.css";
 
 export default function LaunchPage() {
   return (
